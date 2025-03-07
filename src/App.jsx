@@ -2,7 +2,7 @@ import Accordion from "./components/Accordion";
 
 function App() {
   return (
-    <div>
+    <div className="flex justify-center text-[#444]">
       <Accordion />
     </div>
   );
