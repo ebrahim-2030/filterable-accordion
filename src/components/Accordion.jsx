@@ -54,6 +54,16 @@ const Accordion = () => {
       </div>
 
       {/* Accordion Items List */}
+      <div className="flex flex-col gap-2 my-8">
+        {filteredItems.map((item) => (
+          <AccordionItem
+            key={item.id}
+            item={item}
+            isOpen={openId === item.id}
+            toggle={() => handleToggle(item.id)}
+          />
+        ))}
+      </div>
     </div>
   );
 };
