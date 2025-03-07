@@ -3,6 +3,13 @@
 A simple, filterable accordion FAQ section built with **React** and **Tailwind CSS**. Users can filter the FAQ items by category and toggle open/close on individual accordion items.
 
 ---
+## Live Demo
+
+Check out the live demo of the project here: [Live Demo](https://filterable-accordion.vercel.app/)
+
+
+
+
 
 ## 🛠️ **Features**
 
